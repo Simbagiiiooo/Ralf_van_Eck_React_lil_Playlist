@@ -1,0 +1,22 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.css");
+
+html {
+  background-image: linear-gradient(
+    to right top,
+    #051937,
+    #001841,
+    #001649,
+    #051251,
+    #140a57
+  );
+}
+
+body {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  background-color: #ecd662;
+  box-shadow: 3px 3px 5px 2px #eba83a;
+  color: #3e215d;
+  padding: 0;
+  width: 95%;
+  margin: 0 auto 3rem auto;
+}

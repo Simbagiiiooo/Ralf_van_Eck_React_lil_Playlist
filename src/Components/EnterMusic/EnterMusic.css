@@ -1,0 +1,38 @@
+form {
+  margin-top: 1rem;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+input,
+select {
+  height: 2.5rem;
+  padding: 0.7rem;
+  border: 1px solid black;
+  border-radius: 0.2rem;
+  background-color: #e6c059;
+  color: #3e215d;
+  margin-left: 0.5rem;
+}
+
+input[type="text"] {
+  width: 100%;
+  font-size: 1rem;
+  color: #3e215d;
+  height: 1rem;
+}
+
+.add {
+  height: 2.5rem;
+  padding: 0.2rem;
+  background-color: #4de739;
+  color: #3e215d;
+  font-size: 0.9rem;
+  border: 1px solid black;
+  border-radius: 0.3em;
+  margin-left: 0.5rem;
+}
+label {
+  transform: translateY(-0.6rem);
+}

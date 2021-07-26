@@ -1,0 +1,35 @@
+li {
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+  padding: 0.5rem;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  background-color: #e8e46e;
+  border-radius: 0.7rem;
+}
+
+li:nth-child(2n) {
+  background-color: #b3e283;
+}
+
+.delete {
+  width: 40px;
+  display: inline-block;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 600;
+  color: #f2d64b;
+}
+
+.delete:after {
+  content: "\f2ed";
+  color: #d83a56;
+}
+
+button {
+  background: none;
+  border: none;
+}
+
+.pointer {
+  cursor: pointer;
+}

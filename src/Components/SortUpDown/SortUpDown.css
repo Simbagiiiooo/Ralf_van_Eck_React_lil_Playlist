@@ -1,0 +1,42 @@
+.list-head {
+  padding: 0.4em;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.list-head__container {
+  display: flex;
+  justify-content: left;
+}
+
+.arrow {
+  width: 40px;
+  display: inline-block;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 600;
+  color: #f2d64b;
+}
+
+.sort--az:before {
+  color: #284e78;
+  content: "\f15d";
+}
+
+.sort--za:after {
+  color: #284e78;
+  content: "\f881";
+}
+
+.sort--19:before {
+  color: #284e78;
+  content: "\f162";
+}
+
+.sort--91:after {
+  color: #284e78;
+  content: "\f886";
+}
+
+p {
+  font-size: 1.5rem;
+}
