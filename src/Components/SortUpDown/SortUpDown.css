@@ -9,7 +9,11 @@
   justify-content: left;
 }
 
-.arrow {
+.rating {
+  transform: translateX(-4rem);
+}
+
+.sort {
   width: 40px;
   display: inline-block;
   font-family: "Font Awesome 5 Free";
@@ -17,26 +21,42 @@
   color: #f2d64b;
 }
 
-.sort--az:before {
+.song {
+  transform: translateX(2.5rem);
+}
+
+.genre-p {
+  transform: translateX(-7.5rem);
+}
+
+.sort-a-z:before {
   color: #284e78;
   content: "\f15d";
 }
 
-.sort--za:after {
+.sort-z-a:after {
   color: #284e78;
   content: "\f881";
 }
 
-.sort--19:before {
+.sort-1-9:before {
   color: #284e78;
-  content: "\f162";
+  content: "\f884";
 }
 
-.sort--91:after {
+.sort-9-1:after {
   color: #284e78;
-  content: "\f886";
+  content: "\f160";
 }
 
 p {
   font-size: 1.5rem;
+}
+
+.p-remove {
+  transform: translateX(-2rem);
+}
+
+.pointer {
+  cursor: pointer;
 }

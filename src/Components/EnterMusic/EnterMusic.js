@@ -29,6 +29,8 @@ const EnterMusic = () => {
     }
 
     return (
+        <div>
+            <h3>Here you can add songs</h3>
         <form className="enter-music" name='newMusic' onSubmit={handleChange}>
             <input
                 type='text'
@@ -62,6 +64,7 @@ const EnterMusic = () => {
             </select>
             <button className='add pointer'>Add song</button>
         </form>
+        </div>
     )
 }
 

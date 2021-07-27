@@ -17,10 +17,14 @@ select {
 }
 
 input[type="text"] {
-  width: 100%;
+  width: 15%;
   font-size: 1rem;
   color: #3e215d;
   height: 1rem;
+}
+
+h3 {
+  text-align: center;
 }
 
 .add {

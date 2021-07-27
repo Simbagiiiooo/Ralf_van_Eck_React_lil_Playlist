@@ -21,7 +21,7 @@ li:nth-child(2n) {
 }
 
 .remove:after {
-  content: "\f2ed";
+  content: "\f1f8";
   color: #d83a56;
 }
 

@@ -90,6 +90,18 @@ const stateOrigen = {
             genre: 'Reggae',
             rating: '1'
         },
+        {
+            song: 'Sexy als ik dans',
+            artist: 'Nielson ',
+            genre: 'Dutch',
+            rating: '4'
+        },
+        {
+            song: 'Hello',
+            artist: 'Adele',
+            genre: 'Pop',
+            rating: '3'
+        },
     ]
 }
 

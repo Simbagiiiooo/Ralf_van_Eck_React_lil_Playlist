@@ -8,21 +8,24 @@ const HeadSort = () => {
 
     return (
         <header className='list-head'>
-            <div className='list-head__container'>
-                <button className='arrow sort--az pointer' onClick={()=>dispatch(sortMusic('song', false))}></button>
+            <div className='list-head__container song'>
+                <button className='sort sort-a-z pointer' onClick={()=>dispatch(sortMusic('song', false))}></button>
                 <p>Song</p>
-                <button className='arrow sort--za pointer' onClick={()=>dispatch(sortMusic('song', true))}></button>
+                <button className='sort sort-z-a pointer' onClick={()=>dispatch(sortMusic('song', true))}></button>
             </div>
             <div  className='list-head__container'>
-                <button className='arrow sort--az pointer' onClick={()=>dispatch(sortMusic('artist', false))}></button>
+                <button className='sort sort-a-z pointer' onClick={()=>dispatch(sortMusic('artist', false))}></button>
                 <p>Artist</p>
-                <button className='arrow sort--za pointer' onClick={()=>dispatch(sortMusic('artist', true))}></button>
+                <button className='sort sort-z-a pointer' onClick={()=>dispatch(sortMusic('artist', true))}></button>
             </div>
-            <p>Genre</p>
-            <div  className='list-head__container'>
-                <button className='arrow sort--19 pointer' onClick={()=>dispatch(sortMusic('rating', false))}></button>
+            <p className="genre-p">Genre</p>
+            <div  className='list-head__container rating'>
+                <button className='sort sort-1-9 pointer' onClick={()=>dispatch(sortMusic('rating', false))}></button>
                 <p>Rating</p>
-                <button className='arrow sort--91 pointer' onClick={()=>dispatch(sortMusic('rating', true))}></button>           
+                <button className='sort sort-9-1 pointer' onClick={()=>dispatch(sortMusic('rating', true))}></button>           
+            </div>
+            <div  className='list-head__container'>
+                <p className="p-remove">Remove</p>
             </div>
         </header>  
     )
