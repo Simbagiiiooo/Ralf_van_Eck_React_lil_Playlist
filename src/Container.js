@@ -14,9 +14,9 @@ const Container = () => {
     return (
         <main>
             <GenreRatingFilter />
-            <EnterMusic />
             <SortUpDown />
             <ListMusic {...songs}/>
+            <EnterMusic />
         </main>
         )
 }

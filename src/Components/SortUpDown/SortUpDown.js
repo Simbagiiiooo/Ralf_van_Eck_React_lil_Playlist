@@ -9,14 +9,14 @@ const HeadSort = () => {
     return (
         <header className='list-head'>
             <div className='list-head__container'>
-                <button className='arrow sort--za pointer' onClick={()=>dispatch(sortMusic('song', false))}></button>
+                <button className='arrow sort--az pointer' onClick={()=>dispatch(sortMusic('song', false))}></button>
                 <p>Song</p>
-                <button className='arrow sort--az pointer' onClick={()=>dispatch(sortMusic('song', true))}></button>
+                <button className='arrow sort--za pointer' onClick={()=>dispatch(sortMusic('song', true))}></button>
             </div>
             <div  className='list-head__container'>
-                <button className='arrow sort--za pointer' onClick={()=>dispatch(sortMusic('artist', false))}></button>
+                <button className='arrow sort--az pointer' onClick={()=>dispatch(sortMusic('artist', false))}></button>
                 <p>Artist</p>
-                <button className='arrow sort--az pointer' onClick={()=>dispatch(sortMusic('artist', true))}></button>
+                <button className='arrow sort--za pointer' onClick={()=>dispatch(sortMusic('artist', true))}></button>
             </div>
             <p>Genre</p>
             <div  className='list-head__container'>

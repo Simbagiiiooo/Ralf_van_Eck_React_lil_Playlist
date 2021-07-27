@@ -29,7 +29,7 @@ const EnterMusic = () => {
     }
 
     return (
-        <form name='newMusic' onSubmit={handleChange}>
+        <form className="enter-music" name='newMusic' onSubmit={handleChange}>
             <input
                 type='text'
                 name='song'

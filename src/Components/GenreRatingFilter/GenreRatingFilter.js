@@ -33,7 +33,7 @@ const GenreRatingFilter = () => {
     return (
         <section>
             <label>Genre filter:</label>
-            <select
+            <select className="pointer"
                 name='genre'
                 value={filters.genre}
                 onChange={handleChange}>
@@ -41,7 +41,7 @@ const GenreRatingFilter = () => {
                     {generateGenreList()}
             </select>
             <label>Rating filter:</label>
-            <select
+            <select className="pointer"
                 name='rating'
                 value={filters.rating}
                 onChange={handleChange}>

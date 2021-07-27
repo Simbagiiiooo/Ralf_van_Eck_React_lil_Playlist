@@ -12,7 +12,7 @@ const MusicItem = (props) => {
             <span>{props.artist}</span>
             <span>{props.genre}</span>
             <span>{props.rating}</span>
-            <button className='delete pointer' onClick={()=>dispatch(deleteMusic(props.id))}></button>
+            <button className='remove pointer' onClick={()=>dispatch(deleteMusic(props.id))}></button>
         </li>
     )
 }

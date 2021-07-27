@@ -1,4 +1,4 @@
-section {
+.about-section {
   text-align: center;
   padding-bottom: 2rem;
 }
@@ -9,8 +9,4 @@ h2 {
 
 p {
   font-size: 1.3rem;
-}
-
-nav {
-  margin-bottom: 3rem;
 }

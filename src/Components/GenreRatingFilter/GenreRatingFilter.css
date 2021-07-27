@@ -1,10 +1,13 @@
 section {
   text-align: center;
-  padding-bottom: 2rem;
+  padding: 2rem 0 2rem 0;
 }
 
 label {
   padding: 0.2rem;
   font-size: 1.1rem;
   margin: 1rem;
+}
+.pointer {
+  cursor: pointer;
 }

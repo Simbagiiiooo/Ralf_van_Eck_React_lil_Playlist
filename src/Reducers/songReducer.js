@@ -104,13 +104,13 @@ const songReducer = (state=stateOrigen, action) => {
             return {allMusic: filteredSongs}
         case 'SORTMUSIC':
             const sortedSongs = state.allMusic.sort((item1, item2) => {
-            if (item1[action.payload.fieldName].toLowerCase()<item2[action.payload.fieldName].toLowerCase()){
-                return 0
+            if (item1[action.payload.fieldName]<item2[action.payload.fieldName]){
+                return -1
             }
             if (item1.song<item2.song){
                 return 1
             }
-            else return -1
+            else return 0
             })
             action.payload.reverse && sortedSongs.reverse()
             return {allMusic: sortedSongs}

@@ -4,15 +4,15 @@ li {
   padding: 0.5rem;
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  background-color: #e8e46e;
+  background-color: #eff0b6;
   border-radius: 0.7rem;
 }
 
 li:nth-child(2n) {
-  background-color: #b3e283;
+  background-color: #bfb051;
 }
 
-.delete {
+.remove {
   width: 40px;
   display: inline-block;
   font-family: "Font Awesome 5 Free";
@@ -20,7 +20,7 @@ li:nth-child(2n) {
   color: #f2d64b;
 }
 
-.delete:after {
+.remove:after {
   content: "\f2ed";
   color: #d83a56;
 }

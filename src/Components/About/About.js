@@ -5,7 +5,7 @@ import './About.css'
 const About = () => {
     
     return (
-        <section>
+        <section className="about-section">
             <h2>About</h2>
             <p>This is my playlist, made by (Me, Myself and I) as a project for Winc Academy.<br/> 
                 Made with love and hard work, pffff. <br/>
